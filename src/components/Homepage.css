@@ -1,0 +1,43 @@
+.image{
+    
+    background-image: url(./images/main.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: repeat;
+  
+}
+
+.heading-div{
+ position: sticky;
+ top: 0px;
+ 
+    height: 20%;
+   
+    background: linear-gradient(45deg,brown,rgb(151, 104, 104),brown,white,brown);
+}
+.text{
+    color: white;
+    font-weight: bolder;
+  
+
+    font-size: 100px;
+    text-align: center;
+}
+input{
+    width: 700px;
+    margin: 20px 450px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+}
+.icon{
+    position: absolute;
+    background-color: azure;
+ right: 400px;
+ top: 240px;
+    font-size: 30px;
+   
+}

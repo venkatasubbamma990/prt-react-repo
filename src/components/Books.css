@@ -1,0 +1,12 @@
+ .book-self img{
+    width: 300px;
+    height: 300px;
+    padding: 10px 10px;
+}
+.book-self {
+    width: 80vw;
+    height: 100vh;
+   box-shadow: 0 5px 10px rgb(47, 36, 252);
+    margin: 0 10%;
+
+} 

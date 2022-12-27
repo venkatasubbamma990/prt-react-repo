@@ -1,0 +1,49 @@
+.books-rack img{
+    width: 300px;
+    height: 300px;
+}
+.books-rack{
+    width: 80vw;
+    height: 100vh;
+    margin: 0px 150px ;
+    box-shadow: 0 5px 10px black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  align-content: space-around;
+ 
+  position: relative;
+}
+/* .details-image{
+   
+}  */
+ 
+.details{
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    box-shadow: 0 5px 10px black;
+    font-size: 20px;
+
+    background: linear-gradient(45deg,rgb(140, 205, 140),rgb(220, 128, 188));
+    width: 300px;
+    height: 300px;
+    transition: all 2s;
+    transform:perspective(400px) rotateY(90deg);
+   
+}
+ /* .details{
+   
+} */
+.books-rack:hover .details{
+ 
+   transform: perspective(400px) rotateX(0deg) scale(1.1);
+  
+}  
+.books-rack .details-image img:hover .details{
+    transform: perspective(400px) rotateX(0deg);
+}
+ /* img:hover{
+    transform: scale(0.5);
+} */
